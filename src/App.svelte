@@ -6,5 +6,9 @@
 
 <Container is="main">
 	<Heading>Hello {name}!</Heading>
-	<Text>Visit the <Anchor href="https://svelte.dev/tutorial">Svelte tutorial</Anchor> to learn how to build Svelte apps.</Text>
+
+	<Text>
+		Visit the <Anchor href="https://svelte.dev/tutorial" palette="accent">Svelte tutorial</Anchor>
+		to learn how to build Svelte apps.
+	</Text>
 </Container>
