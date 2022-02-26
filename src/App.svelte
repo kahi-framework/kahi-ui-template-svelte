@@ -1,14 +1,16 @@
-<script>
-	import {Anchor, Container, Heading, Text} from "@kahi-ui/framework";
+<script lang="ts">
+  import { Anchor, Container, Heading, Text } from "@kahi-ui/framework";
 
-	export let name;
+  export let name: string;
 </script>
 
 <Container is="main">
-	<Heading>Hello {name}!</Heading>
+  <Heading>Hello {name}!</Heading>
 
-	<Text>
-		Visit the <Anchor href="https://svelte.dev/tutorial" palette="accent">Svelte tutorial</Anchor>
-		to learn how to build Svelte apps.
-	</Text>
+  <Text>
+    Visit the <Anchor href="https://svelte.dev/tutorial" palette="accent">
+      Svelte tutorial
+    </Anchor>
+    to learn how to build Svelte apps.
+  </Text>
 </Container>
